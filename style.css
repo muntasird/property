@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+.menu{
+    background-color: blanchedalmond;
+    width: 100%;
+    margin: 20px auto;
+    font-family: arial;
+    
+}
+ul{
+    text-align: center;
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 25px;
+}
+.menu ul li a{
+    padding: 25px;
+    display: block;
+    padding: 20px;
+    transition: 2s;
+
+}
+.menu ul li:hover a{
+    background: aquamarine;
+    color: brown;
+}
+#logo{
+    text-align: center;
+    border: 1px initial black;
+    width: 300px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 25px;
+    background-color: black;
+}
+#ad {
+    margin: 20px auto;
+    width: 300px;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px inherit black;
+}
+.duplex{
+    background: aqua;
+    box-sizing: border-box;
+    border-radius: 80px;
+    border-style: outset;
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+.dp-h{
+    width: 300px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 30px;
+    border-style: inset;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.dp-f{
+    width: 300px;
+    padding: 25x;
+    margin: auto;
+    border-radius: 0px 30px 30px 30px;
+    box-sizing: border-box;
+    border-style: dashed;
+    display: inline-block;
+    text-align: center;
+}
+.biuld{
+    width: 300px;
+    padding: 40px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 0px 30px 0px 30px;
+    border-style: ridge;
+    display: inline-block;
+    text-align: center;
+}
